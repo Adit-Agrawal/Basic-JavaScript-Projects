@@ -1,0 +1,51 @@
+const articles = [
+  {
+    id: 1,
+    title: "Harry Potter and the Philosopher's Stone",
+    release_date: new Date(1997, 6, 26),
+    pages: 223,
+    summary: 'Harry discovers he’s a wizard and begins his journey at Hogwarts.',
+  },
+  {
+    id: 2,
+    title: 'Harry Potter and the Chamber of Secrets',
+    release_date: new Date(1998, 7, 2),
+    pages: 251,
+    summary: 'Harry returns to Hogwarts to uncover a hidden chamber and save fellow students.',
+  },
+  {
+    id: 3,
+    title: 'Harry Potter and the Prisoner of Azkaban',
+    release_date: new Date(1999, 7, 8),
+    pages: 317,
+    summary: 'A dangerous escaped prisoner seems to be after Harry, but all is not as it seems.',
+  },
+  {
+    id: 4,
+    title: 'Harry Potter and the Goblet of Fire',
+    release_date: new Date(2000, 7, 8),
+    pages: 636,
+    summary: 'Harry is unexpectedly entered into a deadly magical tournament.',
+  },
+  {
+    id: 5,
+    title: 'Harry Potter and the Order of the Phoenix',
+    release_date: new Date(2003, 6, 21),
+    pages: 766,
+    summary: 'As Voldemort rises, Harry faces disbelief and leads a student resistance.',
+  },
+  {
+    id: 6,
+    title: 'Harry Potter and the Half-Blood Prince',
+    release_date: new Date(2005, 7, 16),
+    pages: 607,
+    summary: "Secrets of Voldemort's past come to light as Hogwarts faces new dangers.",
+  },
+  {
+    id: 7,
+    title: 'Harry Potter and the Deathly Hallows',
+    release_date: new Date(2007, 7, 21),
+    pages: 607,
+    summary: "Harry races against time to destroy Voldemort’s Horcruxes and end the war.",
+  },
+];

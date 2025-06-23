@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Tabs</h2>
+        <p>
+          Choose different tabs and read some facts about <strong>Hogwarts!</strong>
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./hogwarts.jpg" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <p>
+                Hogwarts School of Witchcraft and Wizardry was founded over a thousand years ago by four powerful wizards: Godric Gryffindor, Helga Hufflepuff, 
+                Rowena Ravenclaw, and Salazar Slytherin. Disagreements, especially over student selection, led to Slytherin's departure. 
+                The school has since become the premier institution for magical education in Britain, surviving wars, dark wizards, and countless secrets.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <p>
+                Hogwarts envisions a safe haven where young witches and wizards can learn, grow, and master their magical abilities. 
+                It fosters courage, wisdom, loyalty, and ambition through its four houses. Above all, it stands as a beacon of unity, tradition, 
+                and magical excellence.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>
+                Hogwarts aims to provide a comprehensive magical education to young witches and wizards.
+                It seeks to cultivate character, courage, wisdom, and loyalty through its house values.
+                The school strives to prepare students to use magic responsibly and contribute to the wizarding world.
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
